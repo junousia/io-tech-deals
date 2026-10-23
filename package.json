@@ -1,0 +1,26 @@
+{
+  "name": "io-tech-deals",
+  "version": "1.0.0",
+  "description": "Monitor io-tech.fi deal feeds for new deals",
+  "main": "scripts/check-deals.js",
+  "scripts": {
+    "build": "tsc",
+    "check": "node scripts/check-deals.js"
+  },
+  "keywords": [
+    "deals",
+    "rss",
+    "io-tech",
+    "alerts"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "@types/sqlite3": "^3.1.11",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "sqlite3": "^5.1.7"
+  }
+}

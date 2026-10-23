@@ -1,0 +1,10 @@
+{
+  "feeds": [
+    "https://bbs.io-tech.fi/forums/hyvat-tarjoukset.100/index.rss"
+  ],
+  "stateFile": ".io-tech-deals-state.db",
+  "notifyOnNew": true,
+  "watchlist": [],
+  "webhooks": [],
+  "retentionDays": 730
+}
