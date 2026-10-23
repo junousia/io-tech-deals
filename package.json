@@ -8,10 +8,10 @@
     "check": "node scripts/check-deals.js"
   },
   "keywords": [
+    "io-tech",
     "deals",
     "rss",
-    "io-tech",
-    "alerts"
+    "agent-skill"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -22,5 +22,28 @@
   "dependencies": {
     "rss-parser": "^3.13.0",
     "sqlite3": "^5.1.7"
+  },
+  "author": "Jukka Nousiainen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junousia/io-tech-deals.git"
+  },
+  "homepage": "https://github.com/junousia/io-tech-deals#readme",
+  "bugs": {
+    "url": "https://github.com/junousia/io-tech-deals/issues"
+  },
+  "files": [
+    "scripts",
+    "references",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "bin": {
+    "io-tech-deals": "scripts/check-deals.js"
   }
 }
